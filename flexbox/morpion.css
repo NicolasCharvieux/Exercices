@@ -1,0 +1,49 @@
+#container {
+    width: 99vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plateau {
+    width: 315px;
+    height: 315px;
+    /* background-color: hotpink;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.ligne div {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.bd-r {
+    border-right: 2px solid black;
+}
+
+.bd-b {
+    border-bottom: 2px solid black;
+}
+
+.o {
+    font-size: 80px;
+    color: hotpink;
+}
+
+.x {
+    font-size: 80px;
+    color: deepskyblue;
+}

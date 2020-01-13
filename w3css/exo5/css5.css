@@ -1,0 +1,28 @@
+.un {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.deux {
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.trois {
+    font-family: 'Courier New';
+    font-size: 12px;
+    background-color: cadetblue;
+    color: white
+}
+
+.quatre {
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: underline;
+    text-align: right;
+    background: black;
+    color: white
+}

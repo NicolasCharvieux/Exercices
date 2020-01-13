@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" text="text/css" href="morpion.css">
+    <title>Morpion</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="plateau">
+            <div class="ligne un">
+                <div id="1" onclick="changeCouleur('1')" class="bd-r bd-b"></div>
+                <div id="2" onclick="changeCouleur('2')" class="bd-r bd-b"></div>
+                <div id="3" onclick="changeCouleur('3')" class="bd-b"></div>
+
+            </div>
+            <div class="ligne deux">
+                <div id="4" onclick="changeCouleur('4')" class="bd-r bd-b"></div>
+                <div id="5" onclick="changeCouleur('5')" class="bd-r bd-b"></div>
+                <div id="6" onclick="changeCouleur('6')" class="bd-b"></div>
+
+
+            </div>
+            <div class="ligne trois">
+                <div id="7" onclick="changeCouleur('7')" class="bd-r"></div>
+                <div id="8" onclick="changeCouleur('8')" class="bd-r"></div>
+                <div id="9" onclick="changeCouleur('9')"></div>
+            </div>
+
+        </div>
+
+        <button onclick="rejouer()">
+                rejouer
+            </button>
+    </div>
+    <script src="morpion.js"></script>
+</body>
+
+
+</html>

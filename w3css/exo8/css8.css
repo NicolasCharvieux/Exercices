@@ -1,0 +1,143 @@
+.un {
+    background-color: grey;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    float: left
+}
+
+.deux {
+    background-color: rgb(245, 242, 238);
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+    float: left
+}
+
+#trois {
+    width: 1000px;
+}
+
+#si {
+    margin: 15px 100px 10px 70px;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#fix {
+    text-align: center;
+}
+
+.sa {
+    text-align: center;
+    margin: 72px 0px 0px 0px
+}
+
+.se {
+    text-align: center;
+    margin: 72px 0px 0px 0px
+}
+
+.so {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.sy {
+    text-align: right;
+    float: right;
+    margin-right: 5%;
+}
+
+i {
+    color: rgb(12, 105, 0);
+}
+
+div span {
+    color: blue;
+}
+
+hr {
+    width: 50%;
+    height: 3px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 55px 0px 0px 25px;
+}
+
+#fic {
+    margin: 0px 0px 5px 25px;
+}
+
+body {
+    font-family: Arial;
+}
+
+#fifi {
+    width: 8%;
+    height: 3px;
+    margin: 0px 0px 90px 25px;
+    text-align: left;
+    border-color: black;
+    border-bottom-style: solid;
+}
+
+#fiv {
+    margin: 90px 0px 0px 25px;
+}
+
+.fig {
+    margin: 0%;
+    border: none;
+    border-bottom: 4px black solid;
+}
+
+.vac {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.vic {
+    vertical-align: top;
+    width: 70%;
+}
+
+.voc {
+    display: inline-block;
+    width: 65%;
+}
+
+.vec {
+    vertical-align: top;
+    width: 30%;
+}
+
+.gi {
+    margin: 40px 0px 5px 0px;
+}
+
+.gigi {
+    border: none;
+    border-top: 4px orange solid;
+}
+
+.amg {
+    width: 150px;
+    height: 10px;
+    background-color: red;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, #09c, #f44);
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100% 100% 100%;
+}

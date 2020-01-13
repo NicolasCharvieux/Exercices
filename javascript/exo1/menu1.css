@@ -1,0 +1,50 @@
+#ko {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    list-style: none;
+}
+
+#do {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#re {
+    display: flex;
+    list-style: none;
+}
+
+.fa {
+    font-size: 135%;
+}
+
+.mi {
+    font-style: italic;
+}
+
+.sol {
+    font-size: 30px;
+}
+
+.la {
+    margin-right: 150px;
+    margin-left: 10px;
+}
+
+#na {
+    width: 650px;
+    height: 480px;
+    border: black solid 6px;
+}
+
+.ne {
+    width: 650px;
+    height: 75px;
+    border: black solid 6px;
+    margin: -6px 0px 0px -6px;
+}

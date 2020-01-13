@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <title>Exercice 17</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Votre identité</legend>
+
+            <ol start="1">
+                <li>
+                    <label for="name">Name :</label>
+                </li>
+
+                <input type="text" id="name" name="name"></input>
+
+                <br>
+
+                <li>
+                    <label for="email">Email :</label>
+                </li>
+
+                <input type="text" id="email" name="email"></input>
+
+                <br>
+
+                <li>
+                    <label for="telephone">Téléphone :</label>
+                </li>
+
+                <input type="number" id="telephone" name="telephone"></input>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Votre adresse de livraison</legend>
+
+            <ol start="1">
+                <li>
+                    <label for="adresse">Adresse :</label>
+                </li>
+
+                <input type="text" id="adresse" name="adresse"></input>
+
+                <br>
+
+                <li>
+                    <label for="code_postal">Code postal :</label>
+                </li>
+
+                <input type="number" name="code_postal" id="code_postal"></input>
+
+                <br>
+
+                <li>
+                    <label for="pays">Pays :</label>
+                </li>
+
+                <input type="text" name="pays" id="pays"></input>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informations CB</legend>
+
+            <ol start="1">
+                <li>
+                    <fieldset>
+                        <legend>Type de carte bancaire</legend>
+
+                        <input type="radio" id="visa" name="name" value="Visa"></input>
+
+                        <label for="visa">Visa</label>
+
+                        <br>
+
+                        <input type="radio" id="amex" name="name" value="AmEx"></input>
+
+                        <label for="amex">AmEx</label>
+
+                        <br>
+
+                        <input type="radio" id="mastercard" name="name" value="Mastercard"></input>
+
+                        <label for="mastercard">Mastercard</label>
+                    </fieldset>
+                </li>
+
+                <br>
+
+                <li>
+                    <label for="n°_de_carte">N° de carte :</label>
+                </li>
+
+                <input type="number" id="n°_de_carte" name="n°_de_carte"></input>
+
+                <br>
+
+                <li>
+                    <label for="code_de_securite">Code de sécurité :</label>
+                </li>
+
+                <input type="number" name="code_de_securite" id="code_de_securite"></input>
+
+                <br>
+
+                <li>
+                    <label for="nom_du_porteur">Nom du porteur :</label>
+                </li>
+
+                <input type="text" name="nom_du_porteur" id="nom_du_porteur"></input>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <input type="submit" value="Acheter"></input>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.un {
+    color: cadetblue
+}
+
+.deux {
+    background: cadetblue;
+    color: white;
+}
+
+p span {
+    color: cadetblue;
+    font-style: italic;
+}

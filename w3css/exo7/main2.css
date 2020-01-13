@@ -1,0 +1,7 @@
+div {
+    width: 1525px;
+    height: 700px;
+    background-image: url(chameau.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
